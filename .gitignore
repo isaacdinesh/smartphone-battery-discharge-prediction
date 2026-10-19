@@ -1,0 +1,26 @@
+# Raw and processed datasets
+data/
+*.parquet
+*.csv
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+
+# Generated text logs
+results/*_output.txt
